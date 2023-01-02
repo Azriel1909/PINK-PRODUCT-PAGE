@@ -1,0 +1,107 @@
+:root {
+  --ff-ubuntu: 'Ubuntu', sans-serif;
+  --ff-koddchasan: 'Kodchasan', sans-serif;
+  --bc-accent: #F65A83;
+  --bc-accent-light: #ffc4d9;
+  --bc-dark: #090909;
+  --bc-semi-dark: #7d7d7d;
+  --bc-light: #FFF;
+  --bc-semi-light: #EEEEEE;
+  --bc-secondary: #FFD372;
+  --fs-small: 22px;
+  --fs-large: 35px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border box;
+}
+
+header a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--bc-light);
+}
+
+body {
+  background-color: var(--bc-light);
+  font-family: var(--ff-ubuntu);
+}
+
+header {
+  position: fixed;
+  top: 0;
+  min-height: 70px;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--bc-accent);
+  width: 100%;
+}
+
+nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+header li {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.header-img {
+  width: 150px;
+}
+
+nav {
+  display: block;
+  
+}
+
+#page-wrapper {
+  position: relative;
+}
+
+#get-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 300px;
+  margin-top: 100px;
+  padding: 2rem;
+  line-height: 1.5;
+}
+
+#get-info input[type='email'] {
+  padding: 5px 20px;
+}
+
+#get-info input[type='submit'] {
+  padding: 6px 10px;
+  border: none;
+  background-color: var(--bc-accent);
+  color: var(--bc-light);
+  text-transform: uppercase;
+}
+
+form {
+  padding: 20px;
+}
+
+h2 {
+  font-size: var(--fs-small);
+  color: var(--bc-accent);
+}
+
+h1 {
+  font-size: var(--fs-large);
+}
+
+
+
+
