@@ -87,9 +87,8 @@ h1 {
 
 footer {
   background-color: var(--bc-dark);
-  padding: 0.5rem;
+  padding: 1rem;
   color: var(--bc-light);
-  
 }
 
 footer > ul  {
