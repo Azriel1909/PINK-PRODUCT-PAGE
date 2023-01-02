@@ -89,11 +89,16 @@ footer {
   background-color: var(--bc-dark);
   padding: 0.5rem;
   color: var(--bc-light);
+  
 }
 
 footer > ul  {
   display: flex;
   justify-content: flex-end;
+}
+
+footer p {
+  color: var(--bc-accent);
 }
 
 footer  ul li {
@@ -102,7 +107,7 @@ footer  ul li {
 }
 
 .header-img {
-  width: 120px;
+  width: 100px;
 }
 
 #About-us {
@@ -173,6 +178,8 @@ footer  ul li {
   justify-content: center;
   height: 120px;
   width: 80vw;
+  line-height: 1.5;
+
 }
 
 #Blog {
@@ -267,6 +274,80 @@ footer  ul li {
   padding-top: 2rem;
 }
 
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  body  {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  #Features .icon {
+    font-size: 30px;
+  }
+
+  #get-info input[type='email'] {
+    width: 50%;
+  }
+
+  header {
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .service {
+    width: calc(100%/2);
+  }
+
+  .blog-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .plans-content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 15px;
+  }
+  p {
+    font-size: 12px;
+  }
+  header {
+    align-items: center;
+    font-size: 12px;
+    padding: 0;
+  }
+  #Features.item-description {
+    padding-bottom: 2rem;
+  }
+
+  #About-us {
+    align-items: center;
+  }
+
+  #video {
+    width: 250px;
+  }
+}
 
 
 
